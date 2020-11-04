@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+#root {
+  margin: 10px;
+}
+.alarm {
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  font-size: 18px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.red-alarm {
+  border: 1px solid red;
+  color: red;
+}
